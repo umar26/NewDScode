@@ -1,0 +1,7 @@
+C:\Users\v-abumar\source\repos\DSConsoleApp2\DSConsoleApp2\bin\Debug\DSConsoleApp2.exe.config
+C:\Users\v-abumar\source\repos\DSConsoleApp2\DSConsoleApp2\bin\Debug\DSConsoleApp2.exe
+C:\Users\v-abumar\source\repos\DSConsoleApp2\DSConsoleApp2\bin\Debug\DSConsoleApp2.pdb
+C:\Users\v-abumar\source\repos\DSConsoleApp2\DSConsoleApp2\obj\Debug\DSConsoleApp2.csprojAssemblyReference.cache
+C:\Users\v-abumar\source\repos\DSConsoleApp2\DSConsoleApp2\obj\Debug\DSConsoleApp2.csproj.CoreCompileInputs.cache
+C:\Users\v-abumar\source\repos\DSConsoleApp2\DSConsoleApp2\obj\Debug\DSConsoleApp2.exe
+C:\Users\v-abumar\source\repos\DSConsoleApp2\DSConsoleApp2\obj\Debug\DSConsoleApp2.pdb
