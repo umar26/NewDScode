@@ -12,129 +12,176 @@ namespace DSConsoleApp2
 	{
 		static void Main(string[] args)
 		{
-			#region commented code
-			//	Graph<int> graph = new Graph<int>();
-			//	graph.AddNode(1);
-			//	graph.AddNode(2);
-			//	graph.AddNode(3);
-			//	graph.AddNode(4);
-			//	graph.AddNode(5);
-			//	graph.AddNode(6);
-			//	graph.AddEdge(1, 2);
-			//	graph.AddEdge(1, 3);
-			//	graph.AddEdge(2, 4);
-			//	graph.AddEdge(2, 5);
-			//	graph.AddEdge(3, 5);
-			//	graph.AddEdge(4, 6);
-			//	graph.AddEdge(4, 5);
-			//	graph.AddEdge(5, 6);
+            #region commented code
+            //	Graph<int> graph = new Graph<int>();
+            //	graph.AddNode(1);
+            //	graph.AddNode(2);
+            //	graph.AddNode(3);
+            //	graph.AddNode(4);
+            //	graph.AddNode(5);
+            //	graph.AddNode(6);
+            //	graph.AddEdge(1, 2);
+            //	graph.AddEdge(1, 3);
+            //	graph.AddEdge(2, 4);
+            //	graph.AddEdge(2, 5);
+            //	graph.AddEdge(3, 5);
+            //	graph.AddEdge(4, 6);
+            //	graph.AddEdge(4, 5);
+            //	graph.AddEdge(5, 6);
 
-			//foreach(GraphNode<int> item in 	graph.Nodes)
-			//	{
-			//		var neighbours = graph.GetNeighboursByValue(item.Value);
-			//		Console.WriteLine("neighbours of {1} are {0}", neighbours,item.Value);
-			//	}
-			//	Console.WriteLine("BFS Traversal============================");
-			//	graph.BFS(1);
-			//	Console.WriteLine("DFS Traversal ====================================");
-			//	graph.DFS(1);
-			//executeBalance();
-			//string str = "((()((sswer()((";
-			//List<string> resu = RemoveToBalance(str);
-			//Console.WriteLine($"original string {str}");
-			//foreach (var item in resu)
-			//{
-			//	Console.WriteLine($"{item}");
-			//}
+            //foreach(GraphNode<int> item in 	graph.Nodes)
+            //	{
+            //		var neighbours = graph.GetNeighboursByValue(item.Value);
+            //		Console.WriteLine("neighbours of {1} are {0}", neighbours,item.Value);
+            //	}
+            //	Console.WriteLine("BFS Traversal============================");
+            //	graph.BFS(1);
+            //	Console.WriteLine("DFS Traversal ====================================");
+            //	graph.DFS(1);
+            //executeBalance();
+            //string str = "((()((sswer()((";
+            //List<string> resu = RemoveToBalance(str);
+            //Console.WriteLine($"original string {str}");
+            //foreach (var item in resu)
+            //{
+            //	Console.WriteLine($"{item}");
+            //}
 
-			//int[][] a = new int[4][];
-			//a[0] = new int[3] { 2, 6, 8 };
-			//a[1] = new int[3] { 3, 5, 7 };
-			//a[2] = new int[3] { 1, 8, 1 };
-			//a[3] = new int[3] { 5, 9, 15 };
+            //int[][] a = new int[4][];
+            //a[0] = new int[3] { 2, 6, 8 };
+            //a[1] = new int[3] { 3, 5, 7 };
+            //a[2] = new int[3] { 1, 8, 1 };
+            //a[3] = new int[3] { 5, 9, 15 };
 
 
-			//long axval = arrayManipulation(10, a);
+            //long axval = arrayManipulation(10, a);
 
-			//TextWriter textWriter = new StreamWriter(@System.Environment.GetEnvironmentVariable("OUTPUT_PATH"), true);
+            //TextWriter textWriter = new StreamWriter(@System.Environment.GetEnvironmentVariable("OUTPUT_PATH"), true);
 
-			//string firstinput = Console.ReadLine();
-			//int querycount = Convert.ToInt32(firstinput);
-			//for (int i = 0; i < querycount; i++)
-			//{
-			//	string input = Console.ReadLine();
-			//	string[] strinput = input.Split(' ');
-			//	if (strinput.Length == 2)
-			//	{
-			//		int input1 = Convert.ToInt32(strinput[0]);
-			//		int input2 = Convert.ToInt32(strinput[1]);
+            //string firstinput = Console.ReadLine();
+            //int querycount = Convert.ToInt32(firstinput);
+            //for (int i = 0; i < querycount; i++)
+            //{
+            //	string input = Console.ReadLine();
+            //	string[] strinput = input.Split(' ');
+            //	if (strinput.Length == 2)
+            //	{
+            //		int input1 = Convert.ToInt32(strinput[0]);
+            //		int input2 = Convert.ToInt32(strinput[1]);
 
-			//		SolveQuery(input1, input2);
-			//	}
-			//	else if (strinput.Length == 1)
-			//	{
-			//		int input1 = Convert.ToInt32(strinput[0]);
-			//		SolveQuery(input1, null);
-			//	}
+            //		SolveQuery(input1, input2);
+            //	}
+            //	else if (strinput.Length == 1)
+            //	{
+            //		int input1 = Convert.ToInt32(strinput[0]);
+            //		SolveQuery(input1, null);
+            //	}
 
-			//	}
+            //	}
 
-			//Qwith2Stack.SolveQuery(1, 42);
-			//Qwith2Stack.SolveQuery(2,null);
-			#endregion
-			string str = "AbhiUmar";
-			int diff = 'a' - 'A';
-			char[] charstr = str.ToCharArray();
-		
-			Console.WriteLine("char vale {0}", 'c'-0);
-			Console.WriteLine("char vale {0}", (char)('a' +diff));
-			Console.WriteLine("char vale {0}", 'C'-0);
-			Console.ReadKey();
-			solution s = new solution();
-			//solution.SinglyLinkedList slist = new solution.SinglyLinkedList();
-			//solution.SinglyLinkedList slist2 = new solution.SinglyLinkedList();
-			//for (int i = 1; i <= 5; i++)
-			//{
-			//	solution.SinglyLinkedListNode headnode = solution.insertNodeAtTail(slist.head, 5 * i);
+            //Qwith2Stack.SolveQuery(1, 42);
+            //Qwith2Stack.SolveQuery(2,null);
+            #endregion
 
-			//	slist.head = headnode;
-			//}
-			//for (int i = 1; i <= 5; i++)
-			//{
-			//	solution.SinglyLinkedListNode headnode = solution.insertNodeAtTail(slist2.head,10 * i);
 
-			//	slist2.head = headnode;
-			//}
-			//solution.insertNodeAtPosition(slist.head, 1, 2);
-			//solution.reversePrint(slist.head);
-			//solution.mergeLists(slist.head, slist2.head);
-			//solution.SinglyLinkedListNode.printLinkedList(slist.head);
+            #region commentcode 2
+            //for (int i = 0; i < 150; i++)
+            //{
+            //    Console.WriteLine($"value of {i} in char is {(char)i}");
+            //}
+            //            Console.WriteLine($"value of a+26  {((int)'a') + 26 } and charater value is {(char)(((int)'a') + 26)} ");
 
-			solution.DoublyLinkList dblylinklist = new solution.DoublyLinkList();
-			//for (int i = 1; i < 4; i++)
-			//{
-			//	dblylinklist.insertNode(i);
-			//}
-			//dblylinklist.insertNode(2);
-			//dblylinklist.insertNode(3);
-			//dblylinklist.insertNode(4);
-			//dblylinklist.insertNode(10);
-			//solution.sortedInsert(dblylinklist.head,1);
+            //Console.WriteLine("char vale {0}", 'c'-0);
+            //Console.WriteLine("char vale {0}", (char)('a' +diff));
+            //Console.WriteLine("char vale {0}", 'C'-0);
+            //Console.ReadKey();
+            //solution s = new solution();
+            //solution.SinglyLinkedList slist = new solution.SinglyLinkedList();
+            //solution.SinglyLinkedList slist2 = new solution.SinglyLinkedList();
+            //for (int i = 1; i <= 5; i++)
+            //{
+            //	solution.SinglyLinkedListNode headnode = solution.insertNodeAtTail(slist.head, 5 * i);
 
-			BinaryTree<int> tree = new BinaryTree<int>(10);
-			tree.root.Left = new Node<int>(20);
-			tree.root.Right = new Node<int>(30);
-			tree.root.Left.Left = new Node<int>(40);
-			tree.root.Left.Right = new Node<int>(50);
-			tree.root.Left.Right.Left = new Node<int>(60);
-			tree.root.Left.Right.Right = new Node<int>(70);
+            //	slist.head = headnode;
+            //}
+            //for (int i = 1; i <= 5; i++)
+            //{
+            //	solution.SinglyLinkedListNode headnode = solution.insertNodeAtTail(slist2.head,10 * i);
 
-			var height= tree.HeightOfTree(tree.root);
-			Console.WriteLine($"Height of tree {height}");
-			//tree.InOrderTeaversal(tree.root);
-			Console.ReadLine();
-			// Go to http://aka.ms/dotnet-get-started-console to continue learning how to build a console app! 
-		}
+            //	slist2.head = headnode;
+            //}
+            //solution.insertNodeAtPosition(slist.head, 1, 2);
+            //solution.reversePrint(slist.head);
+            //solution.mergeLists(slist.head, slist2.head);
+            //solution.SinglyLinkedListNode.printLinkedList(slist.head);
+
+            //solution.DoublyLinkList dblylinklist = new solution.DoublyLinkList();
+            //for (int i = 1; i < 4; i++)
+            //{
+            //	dblylinklist.insertNode(i);
+            //}
+            //dblylinklist.insertNode(2);
+            //dblylinklist.insertNode(3);
+            //dblylinklist.insertNode(4);
+            //dblylinklist.insertNode(10);
+            //solution.sortedInsert(dblylinklist.head,1);
+
+            //BinaryTree<int> tree = new BinaryTree<int>(10);
+            //tree.root.Left = new Node<int>(20);
+            //tree.root.Right = new Node<int>(30);
+            //tree.root.Left.Left = new Node<int>(40);
+            //tree.root.Left.Right = new Node<int>(50);
+            //tree.root.Left.Right.Left = new Node<int>(60);
+            //tree.root.Left.Right.Right = new Node<int>(70);
+
+            //var height= tree.HeightOfTree(tree.root);
+            //Console.WriteLine($"Height of tree {height}");
+            //tree.InOrderTeaversal(tree.root);
+            //ConsoleKeyInfo k;
+            //do
+            //{
+            //    Console.WriteLine("put decimal value to show floor and ceinling value");
+            //    string input = Console.ReadLine();
+            //    Console.WriteLine($"ceil value=  {(int)Math.Ceiling(Convert.ToDecimal(input))} and floor value ={(int)Math.Floor(Convert.ToDecimal(input))}");
+            //    Console.WriteLine("do you want to continue  enter y/n");
+            //    k = Console.ReadKey();
+            //}
+            //while (k.KeyChar == 'y');
+            int[] arr = { 1,1, 23, 75, 3, 5, 4, 6, 13, 10,
+                    9, 8, 15, 17 ,22, 3,45,103,4,7};
+
+            //Console.WriteLine($"size of array {arr.Length}");
+            //Array.Resize<int>(ref arr, arr.Length + 1);
+            //Console.WriteLine($" New size of array {arr.Length}");
+            //foreach (var item in arr)
+            //{
+            //    Console.WriteLine(item);
+            //}
+            // Console.WriteLine($"val of -1/2 is  {-(1 / 2)}");
+            // var nodeheap= Heap.BuildPriorityHeap(arr);
+            //var newarray=Heap.AddNode( arr, 24, arr.Length);
+            //newarray= Heap.AddNode(newarray, 16, newarray.Length);
+            //Heap.PrinNodeHeap(nodeheap);
+            //for (int i = 0; i < arr.Length; i++)
+            //{
+            //     int itemremoved= Heap.DeleteNode(arr, arr.Length - i);
+            //    Console.WriteLine($"removed item {itemremoved}");
+            //123NN46N5NN7N
+            // string[] strarr = { "10", "20", "30", "40", "60", "N", "N" };
+            // //"123NN46NNNNN5NNNNNNNNNNNN7N"
+            // char[] chararr = "123NN46NNNNN5NNNNNNNNNNNN7NNNNN".ToCharArray();
+            //  strarr=chararr.Select(c => c.ToString()).ToArray();
+            //int height= Heap.FindHeight(strarr.Length, strarr, 0);
+            // Console.WriteLine($"height of tree is {height}");
+            #endregion
+
+            SolveBowlerProb();
+
+            int vv = 1233333334;
+
+            Console.ReadLine();
+            // Go to http://aka.ms/dotnet-get-started-console to continue learning how to build a console app! 
+        }
 
 		static void ArrayDiagram(int count)
 		{
@@ -435,6 +482,31 @@ namespace DSConsoleApp2
 			}
 		}
 
+        public static void SolveBowlerProb()
+        {
+            Console.WriteLine("input bowler count and no of balls remain");
+            var input1 = Console.ReadLine();
+            string[] bowlerandbowl = input1.Split(' ');
+            int bowler = Convert.ToInt32(bowlerandbowl[0]);
+            int balls = Convert.ToInt32(bowlerandbowl[1]);
+            Console.WriteLine("input bowler  quota of each bowler remain");
+            var input2 = Console.ReadLine();
+            int[] bowlerquota = input2.Split(' ').Select(r => Convert.ToInt32(r)).ToArray();
+            Node[] NodeHeap=   Heap.BuildPriorityHeap(bowlerquota);
+            int[] output = new int[balls];
+            for (int i = 0; i < balls; i++)
+            {
+                 Node decitem= Heap.DecreaseMaxNodeValue(NodeHeap, NodeHeap.Length);
+                 output[i] = decitem.Priority+1;
+                //Console.Write($" {output[i]} ");
+            }
+            foreach (var item in output)
+            {
+                Console.Write($"{item} ");
+            }
+            
+
+        }
 
 	}
 
@@ -497,6 +569,30 @@ namespace DSConsoleApp2
 					break;
 			}
 		}
+
+        public static void ReverseCapitalize()
+        {
+            Console.WriteLine("please give input ");
+            string str = Console.ReadLine();
+            //string str = "AbhiUmar";
+            int diff = 'a' - 'A';
+            char[] charstr = str.ToCharArray();
+            string newstr = string.Empty; ;
+            foreach (var c in charstr)
+            {
+                int ascival = (int)(c);
+                if (ascival >= 65 && ascival < 97)
+                {
+                    newstr += ((char)(ascival + diff)).ToString();
+                }
+                else
+                {
+                    newstr += ((char)(ascival - diff)).ToString();
+                }
+            }
+
+            Console.WriteLine($"reverse of char in size {newstr}");
+        }
 
 	}
 }
